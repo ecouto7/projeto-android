@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
    font-family: 'Android';
-   src: url(/fontes/idroid.otf) format(opentype);
+   src: url(../fontes/idroid.otf) format(opentype);
    font-weight: normal;
 }
 :root{
@@ -25,7 +24,7 @@
 }
 
 body{
-    font-family: var(--font-padrao);
+    font-family: 'Montserrat', sans-serif;
     background-color: var(--cor0);
 }
 
